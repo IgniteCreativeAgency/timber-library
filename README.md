@@ -2,9 +2,9 @@ Version 1.5.2
 
 This repository is simply a clone of the [Timber Wordpress Plugin](https://wordpress.org/plugins/timber-library/). We simply added it to git so that we could easily require it as a Yarn dependency in our WordPress development workflow. If you would like to learn more about Timber, you can visit their [site](https://www.upstatement.com/timber/), or the official Git version [Timber](https://github.com/timber/timber/).
 
-Please note, all copyrights, warranties, compaints, and high-fives for Timber should refer back to the original creators.
+Please note, all copyrights, warranties, complaints, and high-fives for Timber should refer back to the original creators.
 
-This section of the Readme.md file is the only thing that has been modified in the repo from the original WordPress version of the plugin.
+This section of the `README.md` and an arbitrary `package.json` (for use by Yarn) are the only files that have been modified in the repo from the original WordPress version of the plugin.
 
 ---
 
@@ -35,12 +35,12 @@ This is what Timber's `.twig` files look like:
 ```twig
 {% extends "base.twig" %}
 {% block content %}
-  <h1 class="big-title">{{ foo }}</h1>
-  <h2 class="post-title">{{ post.title }}</h2>
-  <img src="{{ post.thumbnail.src }}" />
-  <div class="body">
+	<h1 class="big-title">{{ foo }}</h1>
+	<h2 class="post-title">{{ post.title }}</h2>
+	<img src="{{ post.thumbnail.src }}" />
+	<div class="body">
 	{{ post.content }}
-  </div>
+	</div>
 {% endblock %}
 ```
 Once Timber is installed and activated in your plugin directory, it gives any WordPress theme the ability to take advantage of the power of Twig and other Timber features.

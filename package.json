@@ -1,0 +1,10 @@
+{
+	"name": "timber-plugin-library",
+	"version": "1.5.2",
+	"description": "A clone of the WordPress Plugin version of Timber",
+	"repository": "https://github.com/IgniteCreativeAgency/timber-library",
+	"author": {
+		"url": "https://github.com/timber/timber"
+	},
+	"private": true
+}
